@@ -1,0 +1,28 @@
+{
+    "chemicals": [
+        {
+            "type": "element",
+            "id": "hydrogen",
+            "color": [0, 0, 255],
+
+            "name": "H",
+            "atomic_number": 1,
+            "ingot": false
+        },
+        {
+            "type": "compound",
+            "id": "carbon_dioxide",
+            "color": [50, 200, 50],
+
+            "compounds": [
+                {
+                    "id": "carbon"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 2
+                }
+            ]
+        }
+    ]
+}

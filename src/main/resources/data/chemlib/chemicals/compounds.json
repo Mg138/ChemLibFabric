@@ -1,0 +1,3352 @@
+{
+    "chemicals": [
+        {
+            "type": "compound",
+            "id": "carbon_dioxide",
+            "color": [
+                50,
+                200,
+                50
+            ],
+            "compounds": [
+                {
+                    "id": "carbon"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cellulose",
+            "color": [
+                121,
+                186,
+                88
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 6
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 10
+                },
+                {
+                    "id": "oxygen",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "silicon_dioxide",
+            "color": [
+                165,
+                138,
+                45
+            ],
+            "compounds": [
+                {
+                    "id": "silicon"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "nitrate",
+            "color": [
+                198,
+                152,
+                95
+            ],
+            "compounds": [
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "potassium_nitrate",
+            "color": [
+                198,
+                152,
+                95
+            ],
+            "compounds": [
+                {
+                    "id": "potassium"
+                },
+                {
+                    "id": "nitrate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "aluminum_oxide",
+            "color": [
+                210,
+                226,
+                166
+            ],
+            "compounds": [
+                {
+                    "id": "aluminum",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "magnesium_oxide",
+            "color": [
+                237,
+                178,
+                173
+            ],
+            "compounds": [
+                {
+                    "id": "magnesium"
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "potassium_chloride",
+            "color": [
+                198,
+                152,
+                95
+            ],
+            "compounds": [
+                {
+                    "id": "potassium"
+                },
+                {
+                    "id": "chlorine"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "sodium_chloride",
+            "color": [
+                211,
+                198,
+                131
+            ],
+            "compounds": [
+                {
+                    "id": "sodium"
+                },
+                {
+                    "id": "chlorine"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "water",
+            "color": [
+                17,
+                94,
+                192
+            ],
+            "compounds": [
+                {
+                    "id": "hydrogen",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "kaolinite",
+            "color": [
+                164,
+                159,
+                218
+            ],
+            "compounds": [
+                {
+                    "id": "aluminum_oxide"
+                },
+                {
+                    "id": "silicon_dioxide",
+                    "count": 2
+                },
+                {
+                    "id": "water",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "protein",
+            "color": [
+                144,
+                108,
+                21
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 3
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 7
+                },
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 2
+                },
+                {
+                    "id": "sulfur"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "iron_oxide",
+            "color": [
+                128,
+                128,
+                128
+            ],
+            "compounds": [
+                {
+                    "id": "iron",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "sucrose",
+            "color": [
+                224,
+                213,
+                210
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 12
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 22
+                },
+                {
+                    "id": "oxygen",
+                    "count": 11
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "carbonate",
+            "color": [
+                97,
+                113,
+                90
+            ],
+            "compounds": [
+                {
+                    "id": "carbon"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "calcium_carbonate",
+            "color": [
+                219,
+                210,
+                199
+            ],
+            "compounds": [
+                {
+                    "id": "calcium"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "phosphate",
+            "color": [
+                214,
+                210,
+                89
+            ],
+            "compounds": [
+                {
+                    "id": "phosphorus"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "hydroxide",
+            "color": [
+                255,
+                174,
+                0
+            ],
+            "compounds": [
+                {
+                    "id": "oxygen"
+                },
+                {
+                    "id": "hydrogen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "hydroxylapatite",
+            "color": [
+                255,
+                255,
+                255
+            ],
+            "compounds": [
+                {
+                    "id": "calcium",
+                    "count": 5
+                },
+                {
+                    "id": "phosphate",
+                    "count": 6
+                },
+                {
+                    "id": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "strontium_carbonate",
+            "color": [
+                206,
+                88,
+                24
+            ],
+            "compounds": [
+                {
+                    "id": "strontium"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "beryl",
+            "color": [
+                177,
+                214,
+                191
+            ],
+            "compounds": [
+                {
+                    "id": "beryllium",
+                    "count": 3
+                },
+                {
+                    "id": "aluminum",
+                    "count": 2
+                },
+                {
+                    "id": "silicon",
+                    "count": 6
+                },
+                {
+                    "id": "oxygen",
+                    "count": 18
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "starch",
+            "color": [
+                252,
+                239,
+                166
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 12
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 20
+                },
+                {
+                    "id": "oxygen",
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cucurbitacin",
+            "color": [
+                255,
+                200,
+                0
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 32
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 44
+                },
+                {
+                    "id": "oxygen",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "psilocybin",
+            "color": [
+                80,
+                255,
+                80
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 12
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 17
+                },
+                {
+                    "id": "nitrogen",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                },
+                {
+                    "id": "phosphorus"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "zinc_oxide",
+            "color": [
+                189,
+                196,
+                141
+            ],
+            "compounds": [
+                {
+                    "id": "zinc"
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cobalt_aluminate",
+            "color": [
+                17,
+                114,
+                198
+            ],
+            "compounds": [
+                {
+                    "id": "cobalt"
+                },
+                {
+                    "id": "aluminum",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "triglyceride",
+            "color": [
+                200,
+                200,
+                90
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 18
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 32
+                },
+                {
+                    "id": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lead_iodide",
+            "color": [
+                186,
+                135,
+                193
+            ],
+            "compounds": [
+                {
+                    "id": "lead"
+                },
+                {
+                    "id": "iodine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "ethanol",
+            "color": [
+                210,
+                250,
+                150
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 2
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 5
+                },
+                {
+                    "id": "hydroxide"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "amide",
+            "color": [
+                210,
+                250,
+                250
+            ],
+            "compounds": [
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "urea",
+            "color": [
+                230,
+                240,
+                180
+            ],
+            "compounds": [
+                {
+                    "id": "carbon"
+                },
+                {
+                    "id": "oxygen"
+                },
+                {
+                    "id": "amide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "ammonium",
+            "color": [
+                180,
+                250,
+                250
+            ],
+            "compounds": [
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "diammonium_phosphate",
+            "color": [
+                210,
+                250,
+                150
+            ],
+            "compounds": [
+                {
+                    "id": "ammonium",
+                    "count": 2
+                },
+                {
+                    "id": "hydrogen"
+                },
+                {
+                    "id": "phosphate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "potassium_carbonate",
+            "color": [
+                198,
+                152,
+                95
+            ],
+            "compounds": [
+                {
+                    "id": "potassium",
+                    "count": 2
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "mescaline",
+            "color": [
+                30,
+                30,
+                30
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 11
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 17
+                },
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "mullite",
+            "color": [
+                110,
+                110,
+                150
+            ],
+            "compounds": [
+                {
+                    "id": "aluminum_oxide",
+                    "count": 2
+                },
+                {
+                    "id": "silicon_dioxide"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "methane",
+            "color": [
+                200,
+                30,
+                180
+            ],
+            "compounds": [
+                {
+                    "id": "carbon"
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "ethane",
+            "color": [
+                200,
+                30,
+                50
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 2
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "propane",
+            "color": [
+                100,
+                30,
+                50
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 3
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "butane",
+            "color": [
+                111,
+                150,
+                180
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 4
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "pentane",
+            "color": [
+                111,
+                150,
+                85
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 5
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 12
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "hexane",
+            "color": [
+                111,
+                205,
+                50
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 6
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 14
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "potassium_dichromate",
+            "color": [
+                198,
+                152,
+                95
+            ],
+            "compounds": [
+                {
+                    "id": "potassium",
+                    "count": 2
+                },
+                {
+                    "id": "chromium",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "nickel_chloride",
+            "color": [
+                198,
+                157,
+                162
+            ],
+            "compounds": [
+                {
+                    "id": "nickel"
+                },
+                {
+                    "id": "chlorine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "potassium_permanganate",
+            "color": [
+                198,
+                152,
+                95
+            ],
+            "compounds": [
+                {
+                    "id": "potassium"
+                },
+                {
+                    "id": "manganese"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "magnesium_sulfate",
+            "color": [
+                237,
+                178,
+                173
+            ],
+            "compounds": [
+                {
+                    "id": "magnesium"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "copper_chloride",
+            "color": [
+                255,
+                154,
+                30
+            ],
+            "compounds": [
+                {
+                    "id": "copper"
+                },
+                {
+                    "id": "chlorine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cadmium_sulfide",
+            "color": [
+                160,
+                147,
+                115
+            ],
+            "compounds": [
+                {
+                    "id": "cadmium"
+                },
+                {
+                    "id": "sulfur"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "chromium_oxide",
+            "color": [
+                236,
+                237,
+                218
+            ],
+            "compounds": [
+                {
+                    "id": "chromium",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "antimony_trioxide",
+            "color": [
+                250,
+                255,
+                200
+            ],
+            "compounds": [
+                {
+                    "id": "antimony",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "titanium_oxide",
+            "color": [
+                50,
+                30,
+                50
+            ],
+            "compounds": [
+                {
+                    "id": "titanium",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "han_purple",
+            "color": [
+                220,
+                100,
+                255
+            ],
+            "compounds": [
+                {
+                    "id": "barium"
+                },
+                {
+                    "id": "copper"
+                },
+                {
+                    "id": "silicon",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "arsenic_sulfide",
+            "color": [
+                250,
+                100,
+                130
+            ],
+            "compounds": [
+                {
+                    "id": "arsenic",
+                    "count": 4
+                },
+                {
+                    "id": "sulfur",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "barium_sulfate",
+            "color": [
+                0,
+                219,
+                179
+            ],
+            "compounds": [
+                {
+                    "id": "barium"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "beta_carotene",
+            "color": [
+                255,
+                140,
+                40
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 40
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 56
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "polyvinyl_chloride",
+            "color": [
+                95,
+                49,
+                40
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 2
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 3
+                },
+                {
+                    "id": "chlorine"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "potassium_cyanide",
+            "color": [
+                198,
+                152,
+                95
+            ],
+            "compounds": [
+                {
+                    "id": "potassium"
+                },
+                {
+                    "id": "carbon"
+                },
+                {
+                    "id": "nitrogen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "epinephrine",
+            "color": [
+                230,
+                160,
+                120
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 9
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 13
+                },
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cocaine",
+            "color": [
+                210,
+                210,
+                255
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 17
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 21
+                },
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "acetylsalicylic_acid",
+            "color": [
+                130,
+                190,
+                255
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 9
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 8
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "penicillin",
+            "color": [
+                255,
+                210,
+                210
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 16
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 18
+                },
+                {
+                    "id": "nitrogen",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen",
+                    "count": 5
+                },
+                {
+                    "id": "sulfur"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "caffeine",
+            "color": [
+                100,
+                100,
+                20
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 8
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 10
+                },
+                {
+                    "id": "nitrogen",
+                    "count": 4
+                },
+                {
+                    "id": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "mercury_sulfide",
+            "color": [
+                160,
+                159,
+                157
+            ],
+            "compounds": [
+                {
+                    "id": "mercury"
+                },
+                {
+                    "id": "sulfur"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "sodium_hydroxide",
+            "color": [
+                211,
+                198,
+                131
+            ],
+            "compounds": [
+                {
+                    "id": "sodium"
+                },
+                {
+                    "id": "hydroxide"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "calcium_oxide",
+            "color": [
+                219,
+                210,
+                199
+            ],
+            "compounds": [
+                {
+                    "id": "calcium"
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "calcium_hydroxide",
+            "color": [
+                219,
+                210,
+                199
+            ],
+            "compounds": [
+                {
+                    "id": "calcium"
+                },
+                {
+                    "id": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "calcium_chloride",
+            "color": [
+                219,
+                210,
+                199
+            ],
+            "compounds": [
+                {
+                    "id": "calcium"
+                },
+                {
+                    "id": "chlorine",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "sodium_carbonate",
+            "color": [
+                211,
+                198,
+                131
+            ],
+            "compounds": [
+                {
+                    "id": "sodium",
+                    "count": 2
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "hydrochloric_acid",
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "compounds": [
+                {
+                    "id": "hydrogen"
+                },
+                {
+                    "id": "chlorine"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "magnesium_carbonate",
+            "color": [
+                237,
+                178,
+                173
+            ],
+            "compounds": [
+                {
+                    "id": "magnesium"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lead_oxide",
+            "color": [
+                186,
+                135,
+                193
+            ],
+            "compounds": [
+                {
+                    "id": "lead"
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "sulfur_dioxide",
+            "color": [
+                155,
+                155,
+                50
+            ],
+            "compounds": [
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lead_sulfide",
+            "color": [
+                186,
+                135,
+                193
+            ],
+            "compounds": [
+                {
+                    "id": "lead"
+                },
+                {
+                    "id": "sulfur"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "zinc_sulfide",
+            "color": [
+                189,
+                196,
+                141
+            ],
+            "compounds": [
+                {
+                    "id": "zinc"
+                },
+                {
+                    "id": "sulfur"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "iron_disulfide",
+            "color": [
+                128,
+                128,
+                128
+            ],
+            "compounds": [
+                {
+                    "id": "iron"
+                },
+                {
+                    "id": "sulfur",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "tin_oxide",
+            "color": [
+                132,
+                161,
+                206
+            ],
+            "compounds": [
+                {
+                    "id": "tin"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "manganese_oxide",
+            "color": [
+                225,
+                186,
+                242
+            ],
+            "compounds": [
+                {
+                    "id": "manganese"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "strontium_oxide",
+            "color": [
+                206,
+                88,
+                24
+            ],
+            "compounds": [
+                {
+                    "id": "strontium"
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "iron_ii_oxide",
+            "color": [
+                128,
+                128,
+                128
+            ],
+            "compounds": [
+                {
+                    "id": "iron"
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "sulfuric_acid",
+            "color": [
+                150,
+                160,
+                10
+            ],
+            "compounds": [
+                {
+                    "id": "hydrogen",
+                    "count": 2
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "nitric_acid",
+            "color": [
+                66,
+                123,
+                214
+            ],
+            "compounds": [
+                {
+                    "id": "hydrogen"
+                },
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "nitrogen_dioxide",
+            "color": [
+                65,
+                120,
+                200
+            ],
+            "compounds": [
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "sodium_bisulfate",
+            "color": [
+                211,
+                198,
+                131
+            ],
+            "compounds": [
+                {
+                    "id": "sodium"
+                },
+                {
+                    "id": "hydrogen"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "ammonia",
+            "color": [
+                60,
+                120,
+                250
+            ],
+            "compounds": [
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "hydrogen",
+                    "count": "3"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "ammonium_chloride",
+            "color": [
+                60,
+                120,
+                220
+            ],
+            "compounds": [
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "hydrogen",
+                    "count": "4"
+                },
+                {
+                    "id": "chlorine"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "phosphoric_acid",
+            "color": [
+                225,
+                100,
+                135
+            ],
+            "compounds": [
+                {
+                    "id": "hydrogen",
+                    "count": 3
+                },
+                {
+                    "id": "phosphorus"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "calcium_sulfate",
+            "color": [
+                219,
+                210,
+                199
+            ],
+            "compounds": [
+                {
+                    "id": "calcium"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "copper_i_oxide",
+            "color": [
+                255,
+                154,
+                30
+            ],
+            "compounds": [
+                {
+                    "id": "copper",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "copper_i_sulfide",
+            "color": [
+                255,
+                154,
+                30
+            ],
+            "compounds": [
+                {
+                    "id": "copper",
+                    "count": 2
+                },
+                {
+                    "id": "sulfur"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "hydrogen_sulfide",
+            "color": [
+                240,
+                220,
+                30
+            ],
+            "compounds": [
+                {
+                    "id": "hydrogen",
+                    "count": 2
+                },
+                {
+                    "id": "sulfur"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "acetylene",
+            "color": [
+                150,
+                230,
+                30
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 2
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "acetic_acid",
+            "color": [
+                200,
+                240,
+                100
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 2
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 4
+                },
+                {
+                    "id": "oxygen",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "nickel_sulfide",
+            "color": [
+                198,
+                157,
+                162
+            ],
+            "compounds": [
+                {
+                    "id": "nickel"
+                },
+                {
+                    "id": "sulfur"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "antimony_trisulfide",
+            "color": [
+                193,
+                150,
+                58
+            ],
+            "compounds": [
+                {
+                    "id": "antimony",
+                    "count": 2
+                },
+                {
+                    "id": "sulfur",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "nickel_oxide",
+            "color": [
+                198,
+                157,
+                162
+            ],
+            "compounds": [
+                {
+                    "id": "nickel"
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "carbon_monoxide",
+            "color": [
+                69,
+                70,
+                83
+            ],
+            "compounds": [
+                {
+                    "id": "carbon"
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lithium_hydroxide",
+            "color": [
+                40,
+                158,
+                86
+            ],
+            "compounds": [
+                {
+                    "id": "lithium"
+                },
+                {
+                    "id": "hydroxide"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "potassium_hydroxide",
+            "color": [
+                198,
+                152,
+                95
+            ],
+            "compounds": [
+                {
+                    "id": "potassium"
+                },
+                {
+                    "id": "hydroxide"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "rubidium_hydroxide",
+            "color": [
+                15,
+                61,
+                40
+            ],
+            "compounds": [
+                {
+                    "id": "rubidium"
+                },
+                {
+                    "id": "hydroxide"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cesium_hydroxide",
+            "color": [
+                255,
+                148,
+                0
+            ],
+            "compounds": [
+                {
+                    "id": "cesium"
+                },
+                {
+                    "id": "hydroxide"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "beryllium_hydroxide",
+            "color": [
+                184,
+                199,
+                224
+            ],
+            "compounds": [
+                {
+                    "id": "beryllium"
+                },
+                {
+                    "id": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "magnesium_hydroxide",
+            "color": [
+                237,
+                178,
+                173
+            ],
+            "compounds": [
+                {
+                    "id": "magnesium"
+                },
+                {
+                    "id": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "strontium_hydroxide",
+            "color": [
+                206,
+                88,
+                24
+            ],
+            "compounds": [
+                {
+                    "id": "strontium"
+                },
+                {
+                    "id": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "barium_hydroxide",
+            "color": [
+                0,
+                219,
+                179
+            ],
+            "compounds": [
+                {
+                    "id": "barium"
+                },
+                {
+                    "id": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "aluminum_hydroxide",
+            "color": [
+                237,
+                100,
+                59
+            ],
+            "compounds": [
+                {
+                    "id": "aluminum"
+                },
+                {
+                    "id": "hydroxide",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "zinc_hydroxide",
+            "color": [
+                189,
+                196,
+                141
+            ],
+            "compounds": [
+                {
+                    "id": "zinc"
+                },
+                {
+                    "id": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "manganese_hydroxide",
+            "color": [
+                225,
+                186,
+                242
+            ],
+            "compounds": [
+                {
+                    "id": "manganese"
+                },
+                {
+                    "id": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cadmium_hydroxide",
+            "color": [
+                160,
+                147,
+                115
+            ],
+            "compounds": [
+                {
+                    "id": "cadmium"
+                },
+                {
+                    "id": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "copper_ii_hydroxide",
+            "color": [
+                255,
+                154,
+                30
+            ],
+            "compounds": [
+                {
+                    "id": "copper"
+                },
+                {
+                    "id": "hydroxide",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lithium_chloride",
+            "color": [
+                40,
+                158,
+                86
+            ],
+            "compounds": [
+                {
+                    "id": "lithium"
+                },
+                {
+                    "id": "chlorine"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "rubidium_chloride",
+            "color": [
+                15,
+                61,
+                40
+            ],
+            "compounds": [
+                {
+                    "id": "rubidium"
+                },
+                {
+                    "id": "chlorine"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cesium_chloride",
+            "color": [
+                255,
+                148,
+                0
+            ],
+            "compounds": [
+                {
+                    "id": "cesium"
+                },
+                {
+                    "id": "chlorine"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "beryllium_chloride",
+            "color": [
+                184,
+                199,
+                224
+            ],
+            "compounds": [
+                {
+                    "id": "beryllium"
+                },
+                {
+                    "id": "chlorine",
+                    "count": "2"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "magnesium_chloride",
+            "color": [
+                237,
+                178,
+                173
+            ],
+            "compounds": [
+                {
+                    "id": "magnesium"
+                },
+                {
+                    "id": "chlorine",
+                    "count": "2"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "strontium_chloride",
+            "color": [
+                206,
+                88,
+                24
+            ],
+            "compounds": [
+                {
+                    "id": "strontium"
+                },
+                {
+                    "id": "chlorine",
+                    "count": "2"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "barium_chloride",
+            "color": [
+                0,
+                219,
+                179
+            ],
+            "compounds": [
+                {
+                    "id": "barium"
+                },
+                {
+                    "id": "chlorine",
+                    "count": "2"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lithium_oxide",
+            "color": [
+                40,
+                158,
+                86
+            ],
+            "compounds": [
+                {
+                    "id": "lithium",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "sodium_oxide",
+            "color": [
+                211,
+                198,
+                131
+            ],
+            "compounds": [
+                {
+                    "id": "sodium",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "potassium_oxide",
+            "color": [
+                198,
+                152,
+                95
+            ],
+            "compounds": [
+                {
+                    "id": "potassium",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "rubidium_oxide",
+            "color": [
+                15,
+                61,
+                40
+            ],
+            "compounds": [
+                {
+                    "id": "rubidium",
+                    "count": 2
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "beryllium_oxide",
+            "color": [
+                184,
+                199,
+                224
+            ],
+            "compounds": [
+                {
+                    "id": "beryllium"
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "barium_oxide",
+            "color": [
+                0,
+                219,
+                179
+            ],
+            "compounds": [
+                {
+                    "id": "barium"
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lithium_carbonate",
+            "color": [
+                40,
+                158,
+                86
+            ],
+            "compounds": [
+                {
+                    "id": "lithium",
+                    "count": 2
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "rubidium_carbonate",
+            "color": [
+                15,
+                61,
+                40
+            ],
+            "compounds": [
+                {
+                    "id": "rubidium",
+                    "count": 2
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cesium_carbonate",
+            "color": [
+                255,
+                148,
+                0
+            ],
+            "compounds": [
+                {
+                    "id": "cesium",
+                    "count": 2
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "beryllium_carbonate",
+            "color": [
+                184,
+                199,
+                224
+            ],
+            "compounds": [
+                {
+                    "id": "beryllium"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "barium_carbonate",
+            "color": [
+                0,
+                219,
+                179
+            ],
+            "compounds": [
+                {
+                    "id": "barium"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "manganese_carbonate",
+            "color": [
+                225,
+                186,
+                242
+            ],
+            "compounds": [
+                {
+                    "id": "manganese"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "iron_carbonate",
+            "color": [
+                128,
+                128,
+                128
+            ],
+            "compounds": [
+                {
+                    "id": "iron"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cobalt_carbonate",
+            "color": [
+                17,
+                114,
+                198
+            ],
+            "compounds": [
+                {
+                    "id": "cobalt"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "nickel_carbonate",
+            "color": [
+                198,
+                157,
+                162
+            ],
+            "compounds": [
+                {
+                    "id": "nickel"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "copper_carbonate",
+            "color": [
+                255,
+                154,
+                30
+            ],
+            "compounds": [
+                {
+                    "id": "copper"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "zinc_carbonate",
+            "color": [
+                189,
+                196,
+                141
+            ],
+            "compounds": [
+                {
+                    "id": "zinc"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cadmium_carbonate",
+            "color": [
+                160,
+                147,
+                115
+            ],
+            "compounds": [
+                {
+                    "id": "cadmium"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lead_carbonate",
+            "color": [
+                186,
+                135,
+                193
+            ],
+            "compounds": [
+                {
+                    "id": "lead"
+                },
+                {
+                    "id": "carbonate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lithium_sulfate",
+            "color": [
+                40,
+                158,
+                86
+            ],
+            "compounds": [
+                {
+                    "id": "lithium",
+                    "count": 2
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "sodium_sulfate",
+            "color": [
+                211,
+                198,
+                131
+            ],
+            "compounds": [
+                {
+                    "id": "sodium",
+                    "count": 2
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "potassium_sulfate",
+            "color": [
+                198,
+                152,
+                95
+            ],
+            "compounds": [
+                {
+                    "id": "potassium",
+                    "count": 2
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "rubidium_sulfate",
+            "color": [
+                15,
+                61,
+                40
+            ],
+            "compounds": [
+                {
+                    "id": "rubidium",
+                    "count": 2
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cesium_sulfate",
+            "color": [
+                255,
+                148,
+                0
+            ],
+            "compounds": [
+                {
+                    "id": "cesium",
+                    "count": 2
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "beryllium_sulfate",
+            "color": [
+                184,
+                199,
+                224
+            ],
+            "compounds": [
+                {
+                    "id": "beryllium"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "strontium_sulfate",
+            "color": [
+                206,
+                88,
+                24
+            ],
+            "compounds": [
+                {
+                    "id": "strontium"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "manganese_sulfate",
+            "color": [
+                225,
+                186,
+                242
+            ],
+            "compounds": [
+                {
+                    "id": "manganese"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cobalt_sulfate",
+            "color": [
+                17,
+                114,
+                198
+            ],
+            "compounds": [
+                {
+                    "id": "cobalt"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "nickel_sulfate",
+            "color": [
+                198,
+                157,
+                162
+            ],
+            "compounds": [
+                {
+                    "id": "nickel"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "iron_ii_sulfate",
+            "color": [
+                128,
+                128,
+                128
+            ],
+            "compounds": [
+                {
+                    "id": "iron"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "copper_ii_sulfate",
+            "color": [
+                255,
+                154,
+                30
+            ],
+            "compounds": [
+                {
+                    "id": "copper"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "zinc_sulfate",
+            "color": [
+                189,
+                196,
+                141
+            ],
+            "compounds": [
+                {
+                    "id": "zinc"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cadmium_sulfate",
+            "color": [
+                160,
+                147,
+                115
+            ],
+            "compounds": [
+                {
+                    "id": "cadmium"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lead_sulfate",
+            "color": [
+                186,
+                135,
+                193
+            ],
+            "compounds": [
+                {
+                    "id": "lead"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "tin_sulfate",
+            "color": [
+                132,
+                161,
+                206
+            ],
+            "compounds": [
+                {
+                    "id": "tin"
+                },
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lithium_nitrate",
+            "color": [
+                40,
+                158,
+                86
+            ],
+            "compounds": [
+                {
+                    "id": "lithium"
+                },
+                {
+                    "id": "nitrate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "sodium_nitrate",
+            "color": [
+                211,
+                198,
+                131
+            ],
+            "compounds": [
+                {
+                    "id": "sodium"
+                },
+                {
+                    "id": "nitrate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "rubidium_nitrate",
+            "color": [
+                15,
+                61,
+                40
+            ],
+            "compounds": [
+                {
+                    "id": "rubidium"
+                },
+                {
+                    "id": "nitrate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cesium_nitrate",
+            "color": [
+                255,
+                148,
+                0
+            ],
+            "compounds": [
+                {
+                    "id": "cesium"
+                },
+                {
+                    "id": "nitrate"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "beryllium_nitrate",
+            "color": [
+                184,
+                199,
+                224
+            ],
+            "compounds": [
+                {
+                    "id": "beryllium"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "magnesium_nitrate",
+            "color": [
+                237,
+                178,
+                173
+            ],
+            "compounds": [
+                {
+                    "id": "magnesium"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "calcium_nitrate",
+            "color": [
+                219,
+                210,
+                199
+            ],
+            "compounds": [
+                {
+                    "id": "calcium"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "strontium_nitrate",
+            "color": [
+                206,
+                88,
+                24
+            ],
+            "compounds": [
+                {
+                    "id": "strontium"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "barium_nitrate",
+            "color": [
+                0,
+                219,
+                179
+            ],
+            "compounds": [
+                {
+                    "id": "barium"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "manganese_nitrate",
+            "color": [
+                255,
+                186,
+                242
+            ],
+            "compounds": [
+                {
+                    "id": "manganese"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "iron_iii_nitrate",
+            "color": [
+                128,
+                128,
+                128
+            ],
+            "compounds": [
+                {
+                    "id": "iron"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cobalt_nitrate",
+            "color": [
+                17,
+                114,
+                198
+            ],
+            "compounds": [
+                {
+                    "id": "cobalt"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "nickel_nitrate",
+            "color": [
+                198,
+                157,
+                162
+            ],
+            "compounds": [
+                {
+                    "id": "nickel"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "copper_nitrate",
+            "color": [
+                255,
+                154,
+                30
+            ],
+            "compounds": [
+                {
+                    "id": "copper"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "zinc_nitrate",
+            "color": [
+                189,
+                196,
+                141
+            ],
+            "compounds": [
+                {
+                    "id": "zinc"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "lead_nitrate",
+            "color": [
+                186,
+                135,
+                193
+            ],
+            "compounds": [
+                {
+                    "id": "lead"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "cadmium_nitrate",
+            "color": [
+                160,
+                147,
+                115
+            ],
+            "compounds": [
+                {
+                    "id": "cadmium"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "aluminum_nitrate",
+            "color": [
+                247,
+                110,
+                69
+            ],
+            "compounds": [
+                {
+                    "id": "aluminum"
+                },
+                {
+                    "id": "nitrate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "nitric_oxide",
+            "color": [
+                65,
+                120,
+                200
+            ],
+            "compounds": [
+                {
+                    "id": "nitrogen"
+                },
+                {
+                    "id": "oxygen"
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "carbon_disulfide",
+            "color": [
+                200,
+                120,
+                200
+            ],
+            "compounds": [
+                {
+                    "id": "carbon"
+                },
+                {
+                    "id": "sulfur",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "potassium_ethyl_xanthate",
+            "color": [
+                200,
+                120,
+                200
+            ],
+            "compounds": [
+                {
+                    "id": "carbon",
+                    "count": 3
+                },
+                {
+                    "id": "hydrogen",
+                    "count": 5
+                },
+                {
+                    "id": "potassium"
+                },
+                {
+                    "id": "oxygen"
+                },
+                {
+                    "id": "sulfur",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "sulfur_trioxide",
+            "color": [
+                130,
+                160,
+                50
+            ],
+            "compounds": [
+                {
+                    "id": "sulfur"
+                },
+                {
+                    "id": "oxygen",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "id": "barium_sulfide",
+            "color": [
+                0,
+                219,
+                179
+            ],
+            "compounds": [
+                {
+                    "id": "barium"
+                },
+                {
+                    "id": "sulfur"
+                }
+            ]
+        }
+    ]
+}

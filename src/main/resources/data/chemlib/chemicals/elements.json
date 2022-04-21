@@ -1,0 +1,1420 @@
+{
+    "chemicals": [
+        {
+            "type": "element",
+            "id": "hydrogen",
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "name": "H",
+            "atomic_number": 1,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "helium",
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "name": "He",
+            "atomic_number": 2,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "lithium",
+            "color": [
+                40,
+                158,
+                86
+            ],
+            "name": "Li",
+            "atomic_number": 3,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "beryllium",
+            "color": [
+                184,
+                199,
+                224
+            ],
+            "name": "Be",
+            "atomic_number": 4,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "boron",
+            "color": [
+                154,
+                176,
+                226
+            ],
+            "name": "B",
+            "atomic_number": 5,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "carbon",
+            "color": [
+                59,
+                60,
+                63
+            ],
+            "name": "C",
+            "atomic_number": 6,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "nitrogen",
+            "color": [
+                66,
+                123,
+                214
+            ],
+            "name": "N",
+            "atomic_number": 7,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "oxygen",
+            "color": [
+                229,
+                220,
+                156
+            ],
+            "name": "O",
+            "atomic_number": 8,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "fluorine",
+            "color": [
+                204,
+                186,
+                55
+            ],
+            "name": "F",
+            "atomic_number": 9,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "neon",
+            "color": [
+                87,
+                229,
+                16
+            ],
+            "name": "Ne",
+            "atomic_number": 10,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "sodium",
+            "color": [
+                211,
+                198,
+                131
+            ],
+            "name": "Na",
+            "atomic_number": 11,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "magnesium",
+            "color": [
+                237,
+                178,
+                173
+            ],
+            "name": "Mg",
+            "atomic_number": 12,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "aluminum",
+            "color": [
+                247,
+                110,
+                69
+            ],
+            "name": "Al",
+            "atomic_number": 13,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "silicon",
+            "color": [
+                173,
+                178,
+                121
+            ],
+            "name": "Si",
+            "atomic_number": 14,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "phosphorus",
+            "color": [
+                234,
+                98,
+                132
+            ],
+            "name": "P",
+            "atomic_number": 15,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "sulfur",
+            "color": [
+                145,
+                158,
+                6
+            ],
+            "name": "S",
+            "atomic_number": 16,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "chlorine",
+            "color": [
+                77,
+                102,
+                28
+            ],
+            "name": "Cl",
+            "atomic_number": 17,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "argon",
+            "color": [
+                119,
+                117,
+                255
+            ],
+            "name": "Ar",
+            "atomic_number": 18,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "potassium",
+            "color": [
+                198,
+                152,
+                95
+            ],
+            "name": "K",
+            "atomic_number": 19,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "calcium",
+            "color": [
+                219,
+                210,
+                199
+            ],
+            "name": "Ca",
+            "atomic_number": 20,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "scandium",
+            "color": [
+                252,
+                255,
+                99
+            ],
+            "name": "Sc",
+            "atomic_number": 21,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "titanium",
+            "color": [
+                99,
+                255,
+                115
+            ],
+            "name": "Ti",
+            "atomic_number": 22,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "vanadium",
+            "color": [
+                195,
+                186,
+                242
+            ],
+            "name": "V",
+            "atomic_number": 23,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "chromium",
+            "color": [
+                236,
+                237,
+                218
+            ],
+            "name": "Cr",
+            "atomic_number": 24,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "manganese",
+            "color": [
+                225,
+                186,
+                242
+            ],
+            "name": "Mn",
+            "atomic_number": 25,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "iron",
+            "color": [
+                128,
+                128,
+                128
+            ],
+            "name": "Fe",
+            "atomic_number": 26,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "cobalt",
+            "color": [
+                17,
+                114,
+                198
+            ],
+            "name": "Co",
+            "atomic_number": 27,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "nickel",
+            "color": [
+                198,
+                157,
+                162
+            ],
+            "name": "Ni",
+            "atomic_number": 28,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "copper",
+            "color": [
+                255,
+                154,
+                30
+            ],
+            "name": "Cu",
+            "atomic_number": 29,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "zinc",
+            "color": [
+                189,
+                196,
+                141
+            ],
+            "name": "Zn",
+            "atomic_number": 30,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "gallium",
+            "color": [
+                122,
+                20,
+                49
+            ],
+            "name": "Ga",
+            "atomic_number": 31,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "germanium",
+            "color": [
+                104,
+                172,
+                255
+            ],
+            "name": "Ge",
+            "atomic_number": 32,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "arsenic",
+            "color": [
+                62,
+                145,
+                76
+            ],
+            "name": "As",
+            "atomic_number": 33,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "selenium",
+            "color": [
+                116,
+                62,
+                145
+            ],
+            "name": "Se",
+            "atomic_number": 34,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "bromine",
+            "color": [
+                77,
+                160,
+                0
+            ],
+            "name": "Br",
+            "atomic_number": 35,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "krypton",
+            "color": [
+                229,
+                151,
+                50
+            ],
+            "name": "Kr",
+            "atomic_number": 36,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "rubidium",
+            "color": [
+                15,
+                61,
+                40
+            ],
+            "name": "Rb",
+            "atomic_number": 37,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "strontium",
+            "color": [
+                206,
+                88,
+                24
+            ],
+            "name": "Sr",
+            "atomic_number": 38,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "yttrium",
+            "color": [
+                206,
+                179,
+                24
+            ],
+            "name": "Y",
+            "atomic_number": 39,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "zirconium",
+            "color": [
+                127,
+                80,
+                22
+            ],
+            "name": "Zr",
+            "atomic_number": 40,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "niobium",
+            "color": [
+                2,
+                29,
+                255
+            ],
+            "name": "Nb",
+            "atomic_number": 41,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "molybdenum",
+            "color": [
+                39,
+                0,
+                48
+            ],
+            "name": "Mo",
+            "atomic_number": 42,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "technetium",
+            "color": [
+                72,
+                170,
+                63
+            ],
+            "name": "Tc",
+            "atomic_number": 43,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "ruthenium",
+            "color": [
+                255,
+                240,
+                86
+            ],
+            "name": "Ru",
+            "atomic_number": 44,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "rhodium",
+            "color": [
+                255,
+                0,
+                80
+            ],
+            "name": "Rh",
+            "atomic_number": 45,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "palladium",
+            "color": [
+                0,
+                255,
+                169
+            ],
+            "name": "Pd",
+            "atomic_number": 46,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "silver",
+            "color": [
+                226,
+                217,
+                206
+            ],
+            "name": "Ag",
+            "atomic_number": 47,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "cadmium",
+            "color": [
+                160,
+                147,
+                115
+            ],
+            "name": "Cd",
+            "atomic_number": 48,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "indium",
+            "color": [
+                163,
+                230,
+                255
+            ],
+            "name": "In",
+            "atomic_number": 49,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "tin",
+            "color": [
+                132,
+                161,
+                206
+            ],
+            "name": "Sn",
+            "atomic_number": 50,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "antimony",
+            "color": [
+                193,
+                40,
+                58
+            ],
+            "name": "Sb",
+            "atomic_number": 51,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "tellurium",
+            "color": [
+                39,
+                91,
+                26
+            ],
+            "name": "Te",
+            "atomic_number": 52,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "iodine",
+            "color": [
+                62,
+                17,
+                63
+            ],
+            "name": "I",
+            "atomic_number": 53,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "xenon",
+            "color": [
+                196,
+                51,
+                204
+            ],
+            "name": "Xe",
+            "atomic_number": 54,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "cesium",
+            "color": [
+                255,
+                148,
+                0
+            ],
+            "name": "Cs",
+            "atomic_number": 55,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "barium",
+            "color": [
+                0,
+                219,
+                179
+            ],
+            "name": "Ba",
+            "atomic_number": 56,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "lanthanum",
+            "color": [
+                188,
+                253,
+                255
+            ],
+            "name": "La",
+            "atomic_number": 57,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "cerium",
+            "color": [
+                255,
+                254,
+                211
+            ],
+            "name": "Ce",
+            "atomic_number": 58,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "praseodymium",
+            "color": [
+                255,
+                161,
+                0
+            ],
+            "name": "Pr",
+            "atomic_number": 59,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "neodymium",
+            "color": [
+                38,
+                28,
+                11
+            ],
+            "name": "Nd",
+            "atomic_number": 60,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "promethium",
+            "color": [
+                105,
+                175,
+                123
+            ],
+            "name": "Pm",
+            "atomic_number": 61,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "samarium",
+            "color": [
+                73,
+                69,
+                73
+            ],
+            "name": "Sm",
+            "atomic_number": 62,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "europium",
+            "color": [
+                27,
+                211,
+                45
+            ],
+            "name": "Eu",
+            "atomic_number": 63,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "gadolinium",
+            "color": [
+                123,
+                50,
+                208
+            ],
+            "name": "Gd",
+            "atomic_number": 64,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "terbium",
+            "color": [
+                3,
+                37,
+                118
+            ],
+            "name": "Tb",
+            "atomic_number": 65,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "dysprosium",
+            "color": [
+                73,
+                0,
+                219
+            ],
+            "name": "Dy",
+            "atomic_number": 66,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "holmium",
+            "color": [
+                62,
+                255,
+                56
+            ],
+            "name": "Ho",
+            "atomic_number": 67,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "erbium",
+            "color": [
+                194,
+                214,
+                215
+            ],
+            "name": "Er",
+            "atomic_number": 68,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "thulium",
+            "color": [
+                234,
+                178,
+                178
+            ],
+            "name": "Tm",
+            "atomic_number": 69,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "ytterbium",
+            "color": [
+                255,
+                76,
+                219
+            ],
+            "name": "Yb",
+            "atomic_number": 70,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "lutetium",
+            "color": [
+                175,
+                0,
+                219
+            ],
+            "name": "Lu",
+            "atomic_number": 71,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "hafnium",
+            "color": [
+                69,
+                81,
+                233
+            ],
+            "name": "Hf",
+            "atomic_number": 72,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "tantalum",
+            "color": [
+                108,
+                142,
+                110
+            ],
+            "name": "Ta",
+            "atomic_number": 73,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "tungsten",
+            "color": [
+                120,
+                128,
+                140
+            ],
+            "name": "W",
+            "atomic_number": 74,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "rhenium",
+            "color": [
+                199,
+                226,
+                89
+            ],
+            "name": "Re",
+            "atomic_number": 75,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "osmium",
+            "color": [
+                102,
+                129,
+                173
+            ],
+            "name": "Os",
+            "atomic_number": 76,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "iridium",
+            "color": [
+                215,
+                242,
+                238
+            ],
+            "name": "Ir",
+            "atomic_number": 77,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "platinum",
+            "color": [
+                114,
+                202,
+                229
+            ],
+            "name": "Pt",
+            "atomic_number": 78,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "gold",
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "name": "Au",
+            "atomic_number": 79,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "mercury",
+            "color": [
+                160,
+                159,
+                157
+            ],
+            "name": "Hg",
+            "atomic_number": 80,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "thallium",
+            "color": [
+                103,
+                50,
+                25
+            ],
+            "name": "Tl",
+            "atomic_number": 81,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "lead",
+            "color": [
+                186,
+                135,
+                193
+            ],
+            "name": "Pb",
+            "atomic_number": 82,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "bismuth",
+            "color": [
+                252,
+                171,
+                40
+            ],
+            "name": "Bi",
+            "atomic_number": 83,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "polonium",
+            "color": [
+                138,
+                87,
+                85
+            ],
+            "name": "Po",
+            "atomic_number": 84,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "astatine",
+            "color": [
+                120,
+                128,
+                213
+            ],
+            "name": "At",
+            "atomic_number": 85,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "radon",
+            "color": [
+                76,
+                66,
+                179
+            ],
+            "name": "Rn",
+            "atomic_number": 86,
+            "ingot": false
+        },
+        {
+            "type": "element",
+            "id": "francium",
+            "color": [
+                81,
+                114,
+                198
+            ],
+            "name": "Fr",
+            "atomic_number": 87,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "radium",
+            "color": [
+                255,
+                181,
+                221
+            ],
+            "name": "Ra",
+            "atomic_number": 88,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "actinium",
+            "color": [
+                14,
+                182,
+                145
+            ],
+            "name": "Ac",
+            "atomic_number": 89,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "thorium",
+            "color": [
+                56,
+                79,
+                75
+            ],
+            "name": "Th",
+            "atomic_number": 90,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "protactinium",
+            "color": [
+                204,
+                233,
+                2
+            ],
+            "name": "Pa",
+            "atomic_number": 91,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "uranium",
+            "color": [
+                93,
+                178,
+                19
+            ],
+            "name": "U",
+            "atomic_number": 92,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "neptunium",
+            "color": [
+                32,
+                20,
+                158
+            ],
+            "name": "Np",
+            "atomic_number": 93,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "plutonium",
+            "color": [
+                211,
+                211,
+                209
+            ],
+            "name": "Pu",
+            "atomic_number": 94,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "americium",
+            "color": [
+                237,
+                124,
+                75
+            ],
+            "name": "Am",
+            "atomic_number": 95,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "curium",
+            "color": [
+                229,
+                110,
+                149
+            ],
+            "name": "Cm",
+            "atomic_number": 96,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "berkelium",
+            "color": [
+                44,
+                66,
+                49
+            ],
+            "name": "Bk",
+            "atomic_number": 97,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "californium",
+            "color": [
+                175,
+                182,
+                16
+            ],
+            "name": "Cf",
+            "atomic_number": 98,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "einsteinium",
+            "color": [
+                192,
+                210,
+                95
+            ],
+            "name": "Es",
+            "atomic_number": 99,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "fermium",
+            "color": [
+                74,
+                226,
+                83
+            ],
+            "name": "Fm",
+            "atomic_number": 100,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "mendelevium",
+            "color": [
+                175,
+                176,
+                249
+            ],
+            "name": "Md",
+            "atomic_number": 101,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "nobelium",
+            "color": [
+                94,
+                44,
+                52
+            ],
+            "name": "No",
+            "atomic_number": 102,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "lawrencium",
+            "color": [
+                216,
+                45,
+                92
+            ],
+            "name": "Lr",
+            "atomic_number": 103,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "rutherfordium",
+            "color": [
+                240,
+                61,
+                22
+            ],
+            "name": "Rf",
+            "atomic_number": 104,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "dubnium",
+            "color": [
+                11,
+                112,
+                108
+            ],
+            "name": "Db",
+            "atomic_number": 105,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "seaborgium",
+            "color": [
+                158,
+                49,
+                74
+            ],
+            "name": "Sg",
+            "atomic_number": 106,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "bohrium",
+            "color": [
+                166,
+                251,
+                51
+            ],
+            "name": "Bh",
+            "atomic_number": 107,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "hassium",
+            "color": [
+                78,
+                5,
+                51
+            ],
+            "name": "Hs",
+            "atomic_number": 108,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "meitnerium",
+            "color": [
+                169,
+                138,
+                37
+            ],
+            "name": "Mt",
+            "atomic_number": 109,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "darmstadtium",
+            "color": [
+                14,
+                144,
+                190
+            ],
+            "name": "Ds",
+            "atomic_number": 110,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "roentgenium",
+            "color": [
+                150,
+                90,
+                90
+            ],
+            "name": "Rg",
+            "atomic_number": 111,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "copernicium",
+            "color": [
+                160,
+                40,
+                240
+            ],
+            "name": "Cn",
+            "atomic_number": 112,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "nihonium",
+            "color": [
+                220,
+                250,
+                180
+            ],
+            "name": "Nh",
+            "atomic_number": 113,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "flerovium",
+            "color": [
+                200,
+                180,
+                254
+            ],
+            "name": "Fl",
+            "atomic_number": 114,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "moscovium",
+            "color": [
+                250,
+                180,
+                200
+            ],
+            "name": "Mc",
+            "atomic_number": 115,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "livermorium",
+            "color": [
+                250,
+                250,
+                200
+            ],
+            "name": "Lv",
+            "atomic_number": 116,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "tennessine",
+            "color": [
+                150,
+                250,
+                250
+            ],
+            "name": "Ts",
+            "atomic_number": 117,
+            "ingot": true
+        },
+        {
+            "type": "element",
+            "id": "oganesson",
+            "color": [
+                250,
+                150,
+                250
+            ],
+            "name": "Og",
+            "atomic_number": 118,
+            "ingot": true
+        }
+    ]
+}
