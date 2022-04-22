@@ -37,7 +37,12 @@ object ChemLib : ModInitializer {
     init {
         FabricLoader.getInstance().getModContainer(MOD_ID).get()
             .findPath("data/chemlib/chemicals").get()
-            .forEachDirectoryEntry { it.copyTo(DATA_DIR.resolve(it.name)) }
+            .forEachDirectoryEntry {
+                try {
+                    it.copyTo(DATA_DIR.resolve(it.name))
+                } catch (ignored: Exception) {
+                }
+            }
     }
 
     override fun onInitialize() {
