@@ -32,15 +32,15 @@ object ChemLib : ModInitializer {
     val ITEM_GROUP: ItemGroup =
         FabricItemGroupBuilder.build(id("chemlib")) { Registry.ITEM.get(id("element_hydrogen")).defaultStack }
 
-    val DATA_DIR: Path = FabricLoader.getInstance().configDir.resolve("chemlib/chemicals")
+    val DATA_DIR: Path = FabricLoader.getInstance().configDir.resolve("chemlib/chemicals").createDirectories()
 
-    override fun onInitialize() {
-        DATA_DIR.createDirectories()
-
+    init {
         FabricLoader.getInstance().getModContainer(MOD_ID).get()
             .findPath("data/chemlib/chemicals").get()
             .forEachDirectoryEntry { it.copyTo(DATA_DIR.resolve(it.name), overwrite = true) }
+    }
 
+    override fun onInitialize() {
         ChemicalParser.load()
 
         ModBlocks.BLOCKS.forEach(BlockLamp::register)
