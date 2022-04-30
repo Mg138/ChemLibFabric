@@ -12,6 +12,7 @@ version = modVersion
 val mavenGroup: String by project
 group = mavenGroup
 repositories {
+    maven("https://storage.googleapis.com/devan-maven/")
 }
 dependencies {
     val minecraftVersion: String by project
@@ -24,6 +25,8 @@ dependencies {
     modImplementation("net.fabricmc.fabric-api:fabric-api:$fabricVersion")
     val fabricKotlinVersion: String by project
     modImplementation("net.fabricmc:fabric-language-kotlin:$fabricKotlinVersion")
+
+    modImplementation("net.devtech:arrp:0.+")
 }
 tasks {
     val javaVersion = JavaVersion.VERSION_17

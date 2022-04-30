@@ -6,11 +6,11 @@ import com.smashingmods.chemlib.items.base.IChemical
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 
 class CompoundItem(
-    id: String,
+    val name: String,
     color: Int,
     private val chemicals: List<Pair<Int, IChemical>>,
 ) : BaseItem(
-    "compound_$id",
+    "compound_$name",
     color,
     FabricItemSettings()
 ), IChemical {

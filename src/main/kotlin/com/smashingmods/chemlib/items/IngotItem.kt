@@ -4,12 +4,13 @@ import com.smashingmods.chemlib.items.base.BaseItem
 import com.smashingmods.chemlib.items.base.IChemical
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 
+
 class IngotItem(
-    id: String,
+    val name: String,
     chemical: IChemical,
     color: Int,
 ) : BaseItem(
-    "ingot_$id",
+    "ingot_$name",
     color,
     FabricItemSettings()
 ) {

@@ -9,12 +9,12 @@ import net.minecraft.text.Text
 import net.minecraft.world.World
 
 class ElementItem(
-    id: String,
+    val name: String,
     override val abbreviation: String,
     private val atomicNumber: Int,
     color: Int
 ) : BaseItem(
-    "element_$id",
+    "element_$name",
     color,
     FabricItemSettings()
 ) {

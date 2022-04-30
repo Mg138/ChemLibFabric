@@ -4,14 +4,22 @@ import com.google.gson.JsonArray
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
 import com.smashingmods.chemlib.ChemLib
+import com.smashingmods.chemlib.ChemLib.id
 import com.smashingmods.chemlib.items.CompoundItem
 import com.smashingmods.chemlib.items.ElementItem
 import com.smashingmods.chemlib.items.IngotItem
 import com.smashingmods.chemlib.items.base.IChemical
+import net.devtech.arrp.api.RRPCallback
+import net.devtech.arrp.api.RuntimeResourcePack
+import net.devtech.arrp.json.tags.JTag.tag
+import net.minecraft.util.Identifier
 import kotlin.io.path.forEachDirectoryEntry
 import kotlin.io.path.reader
 
+
 object ChemicalParser {
+    private val INGOT_TAGS: RuntimeResourcePack = RuntimeResourcePack.create("chemlib:ingots")
+    
     data class TempCompoundChemical(val color: Int, val compounds: List<Pair<Int, String>>)
 
     val map: MutableMap<String, IChemical> = mutableMapOf()
@@ -91,6 +99,18 @@ object ChemicalParser {
         }
 
         map.forEach { it.value.register() }
+
+        map.values
+            .filterIsInstance<IngotItem>()
+            .forEach {
+                INGOT_TAGS.addTag(Identifier("c", "items/${it.name}_ingots"),
+                    tag().add(id(it.id))
+                )
+            }
+
+        RRPCallback.AFTER_VANILLA.register {
+            it.add(INGOT_TAGS)
+        }
     }
 }
 
